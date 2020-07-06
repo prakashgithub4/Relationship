@@ -32,3 +32,4 @@ Route::group(['middleware'=>'buyer'],function(){
 	Route::get('/home/seller', 'HomeController@seller');
 
 });
+Route::get('post/','HomeController@posts');
